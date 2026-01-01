@@ -348,12 +348,82 @@ body {
 }
 
 
-@media (max-width: 768px){
-
-  .programs-grid{
-    grid-template-columns: 1fr;
-  }
+/* ================= CTA BANNER (LIKE SCREENSHOT) ================= */
+.cta-banner{
+  position: relative;
+  padding: 110px 0;
+  background-image: url("cta-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
+
+.cta-banner__overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(35, 45, 57, 0.01);
+  z-index: 0;
+}
+
+.cta-banner .container{
+  position: relative;
+  z-index: 1;
+}
+
+.cta-banner__content{
+  text-align: center;
+  max-width: 920px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.cta-banner__title{
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  line-height: 1.15;
+}
+
+.cta-banner__title span{
+  color: #ee664e; 
+}
+
+.cta-banner__text{
+  font-size: 14px;
+  line-height: 1.85;
+  color: rgba(255,255,255,0.88);
+  margin: 0 auto 26px;
+  max-width: 760px;
+}
+
+.cta-banner__btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12px 28px;
+  background: #ee664e;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+
+.cta-banner__btn:hover{
+  background: #fff;
+  color: #ee664e;
+}
+
+
+
+
+
 
 
 
@@ -385,6 +455,12 @@ body {
   .hero-content h1 {
     font-size: 40px;
   }
+  .cta-banner{ padding: 80px 0; }
+  .cta-banner__title{ font-size: 30px; }
+  .cta-banner__text{ font-size: 13px; }
+  .programs-grid{
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
@@ -394,4 +470,7 @@ body {
   .programs{
     padding: 70px 0;
   }
+  .cta-banner{ padding: 68px 0; }
+  .cta-banner__title{ font-size: 24px; }
+  .cta-banner__btn{ width: 100%; max-width: 280px; }
 }
