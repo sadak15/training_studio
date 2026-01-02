@@ -148,7 +148,7 @@ body {
   color: #EE664E;
 }
 
-.menu-toggle{
+.menu-toggle {
   display: none;
   width: 44px;
   height: 44px;
@@ -158,7 +158,7 @@ body {
   position: relative;
 }
 
-.menu-toggle span{
+.menu-toggle span {
   display: block;
   height: 2px;
   width: 22px;
@@ -167,7 +167,7 @@ body {
   transition: .25s;
 }
 
-.mobile-menu{
+.mobile-menu {
   display: none;
   position: absolute;
   left: 20px;
@@ -176,7 +176,7 @@ body {
   background: #fff;
   border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 18px 55px rgba(0,0,0,0.20);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.20);
   transform: translateY(-8px);
   opacity: 0;
   pointer-events: none;
@@ -184,20 +184,20 @@ body {
   z-index: 999;
 }
 
-.mobile-menu.open{
+.mobile-menu.open {
   display: block;
   transform: translateY(0);
   opacity: 1;
   pointer-events: auto;
 }
 
-.mobile-nav{
+.mobile-nav {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.mobile-nav li a{
+.mobile-nav li a {
   display: block;
   padding: 16px 18px;
   color: #222;
@@ -209,16 +209,16 @@ body {
   border-top: 1px solid #eee;
 }
 
-.mobile-nav li:first-child a{
+.mobile-nav li:first-child a {
   border-top: 0;
 }
 
-.mobile-nav li a:hover{
+.mobile-nav li a:hover {
   color: #EE664E;
 }
 
 
-.mobile-sign a.main-button{
+.mobile-sign a.main-button {
   display: block;
   border-radius: 0;
   text-align: center;
@@ -227,29 +227,31 @@ body {
   padding: 18px 18px;
 }
 
-.menu-toggle.is-open span:nth-child(1){
+.menu-toggle.is-open span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
-.menu-toggle.is-open span:nth-child(2){
+
+.menu-toggle.is-open span:nth-child(2) {
   opacity: 0;
 }
-.menu-toggle.is-open span:nth-child(3){
+
+.menu-toggle.is-open span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
 /* ================= CHOOSE PROGRAM SECTION ================= */
-.programs{
+.programs {
   padding: 90px 0;
   background: #fff;
 }
 
-.programs-head{
+.programs-head {
   text-align: center;
   max-width: 760px;
   margin: 0 auto 60px;
 }
 
-.programs-title{
+.programs-title {
   font-size: 32px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -257,17 +259,17 @@ body {
   margin-bottom: 14px;
 }
 
-.programs-title span{
+.programs-title span {
   color: #ee664e;
 }
 
-.programs-wave{
+.programs-wave {
   display: inline-flex;
   gap: 6px;
   margin: 10px 0 18px;
 }
 
-.programs-wave span{
+.programs-wave span {
   width: 18px;
   height: 3px;
   border-radius: 999px;
@@ -275,28 +277,28 @@ body {
   display: inline-block;
 }
 
-.programs-subtitle{
+.programs-subtitle {
   font-size: 14px;
   line-height: 1.8;
   color: #7a7a7a;
 }
 
 /* Grid (2 columns like screenshot) */
-.programs-grid{
+.programs-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 46px 80px;
 }
 
 /* Item row */
-.program-item{
+.program-item {
   display: grid;
   grid-template-columns: 96px 1fr;
   gap: 22px;
   align-items: start;
 }
 
-.program-icon{
+.program-icon {
   width: 96px;
   height: 96px;
   border-radius: 6px;
@@ -306,35 +308,35 @@ body {
   color: #fff;
 }
 
-.program-icon svg{
+.program-icon svg {
   width: 46px;
   height: 46px;
 }
 
-.program-info h3{
+.program-info h3 {
   font-size: 19px;
   font-weight: 700;
   color: #232d39;
   margin-bottom: 10px;
 }
 
-.program-info p{
+.program-info p {
   font-size: 14px;
   line-height: 1.8;
   color: #7a7a7a;
   margin-bottom: 10px;
 }
 
-.program-info p a{
+.program-info p a {
   color: #1e78ff;
   text-decoration: none;
 }
 
-.program-info p a:hover{
+.program-info p a:hover {
   text-decoration: underline;
 }
 
-.program-more{
+.program-more {
   display: inline-block;
   font-size: 12px;
   font-weight: 800;
@@ -343,13 +345,13 @@ body {
   text-decoration: none;
 }
 
-.program-more:hover{
+.program-more:hover {
   text-decoration: underline;
 }
 
 
 /* ================= CTA BANNER (LIKE SCREENSHOT) ================= */
-.cta-banner{
+.cta-banner {
   position: relative;
   padding: 110px 0;
   background-image: url("cta-bg.jpg");
@@ -359,26 +361,26 @@ body {
   overflow: hidden;
 }
 
-.cta-banner__overlay{
+.cta-banner__overlay {
   position: absolute;
   inset: 0;
   background: rgba(35, 45, 57, 0.01);
   z-index: 0;
 }
 
-.cta-banner .container{
+.cta-banner .container {
   position: relative;
   z-index: 1;
 }
 
-.cta-banner__content{
+.cta-banner__content {
   text-align: center;
   max-width: 920px;
   margin: 0 auto;
   color: #fff;
 }
 
-.cta-banner__title{
+.cta-banner__title {
   font-size: 44px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -387,19 +389,19 @@ body {
   line-height: 1.15;
 }
 
-.cta-banner__title span{
-  color: #ee664e; 
+.cta-banner__title span {
+  color: #ee664e;
 }
 
-.cta-banner__text{
+.cta-banner__text {
   font-size: 14px;
   line-height: 1.85;
-  color: rgba(255,255,255,0.88);
+  color: rgba(255, 255, 255, 0.88);
   margin: 0 auto 26px;
   max-width: 760px;
 }
 
-.cta-banner__btn{
+.cta-banner__btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -415,25 +417,25 @@ body {
   transition: 0.25s;
 }
 
-.cta-banner__btn:hover{
+.cta-banner__btn:hover {
   background: #fff;
   color: #ee664e;
 }
 
 /* ================= OUR CLASSES SECTION ================= */
-.classes{
+.classes {
   padding: 90px 0;
   background: #fff;
 }
 
 /* Head */
-.classes-head{
+.classes-head {
   text-align: center;
   max-width: 760px;
   margin: 0 auto 60px;
 }
 
-.classes-title{
+.classes-title {
   font-size: 32px;
   font-weight: 800;
   letter-spacing: 1px;
@@ -442,17 +444,17 @@ body {
   text-transform: uppercase;
 }
 
-.classes-title span{
+.classes-title span {
   color: #ee664e;
 }
 
-.classes-wave{
+.classes-wave {
   display: inline-flex;
   gap: 6px;
   margin: 10px 0 18px;
 }
 
-.classes-wave span{
+.classes-wave span {
   width: 18px;
   height: 3px;
   border-radius: 999px;
@@ -460,14 +462,14 @@ body {
   display: inline-block;
 }
 
-.classes-subtitle{
+.classes-subtitle {
   font-size: 14px;
   line-height: 1.85;
   color: #7a7a7a;
 }
 
 /* Layout */
-.classes-wrap{
+.classes-wrap {
   display: grid;
   grid-template-columns: 380px 1fr;
   gap: 50px;
@@ -475,13 +477,13 @@ body {
 }
 
 /* Left tabs */
-.classes-tabs{
+.classes-tabs {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.classes-tab{
+.classes-tab {
   width: 100%;
   border: 0;
   cursor: pointer;
@@ -492,38 +494,38 @@ body {
   align-items: center;
   gap: 18px;
   text-align: left;
-  box-shadow: 0 14px 35px rgba(0,0,0,0.08);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
   transition: 0.25s;
 }
 
-.classes-tab i{
+.classes-tab i {
   width: 42px;
   height: 42px;
   border-radius: 10px;
   display: grid;
   place-items: center;
-  background: rgba(238,102,78,0.12);
+  background: rgba(238, 102, 78, 0.12);
   color: #ee664e;
   font-size: 18px;
   flex: 0 0 42px;
 }
 
-.classes-tab span{
+.classes-tab span {
   font-size: 16px;
   font-weight: 700;
   color: #232d39;
 }
 
-.classes-tab:hover{
+.classes-tab:hover {
   transform: translateY(-2px);
 }
 
-.classes-tab.is-active span{
+.classes-tab.is-active span {
   color: #ee664e;
 }
 
 /* View all schedules */
-.classes-all{
+.classes-all {
   margin-top: 6px;
   display: inline-flex;
   justify-content: center;
@@ -539,37 +541,37 @@ body {
   transition: 0.25s;
 }
 
-.classes-all:hover{
+.classes-all:hover {
   background: #232d39;
   color: #fff;
 }
 
 /* Right panel */
-.classes-panel{
+.classes-panel {
   padding-top: 4px;
 }
 
-.classes-image{
+.classes-image {
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 14px 45px rgba(0,0,0,0.10);
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.10);
 }
 
-.classes-image img{
+.classes-image img {
   width: 100%;
   height: 360px;
   object-fit: cover;
   display: block;
 }
 
-.classes-name{
+.classes-name {
   margin-top: 20px;
   font-size: 26px;
   font-weight: 800;
   color: #232d39;
 }
 
-.classes-desc{
+.classes-desc {
   margin-top: 12px;
   font-size: 14px;
   line-height: 1.85;
@@ -577,7 +579,7 @@ body {
   max-width: 780px;
 }
 
-.classes-btn{
+.classes-btn {
   margin-top: 22px;
   display: inline-flex;
   align-items: center;
@@ -594,38 +596,38 @@ body {
   transition: 0.25s;
 }
 
-.classes-btn:hover{
+.classes-btn:hover {
   background: #232d39;
 }
 
 /* ================= CLASSES SCHEDULE ================= */
-.schedule{
+.schedule {
   position: relative;
   padding: 110px 0;
-  background: url("schedule-bg.jpg") no-repeat center/cover; 
+  background: url("schedule-bg.jpg") no-repeat center/cover;
   overflow: hidden;
 }
 
-.schedule__overlay{
+.schedule__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(35,45,57,0.1); 
+  background: rgba(35, 45, 57, 0.1);
   z-index: 0;
 }
 
-.schedule .container{
+.schedule .container {
   position: relative;
   z-index: 1;
 }
 
-.schedule-head{
+.schedule-head {
   text-align: center;
   max-width: 820px;
   margin: 0 auto 40px;
   color: #fff;
 }
 
-.schedule-title{
+.schedule-title {
   font-size: 34px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -633,17 +635,17 @@ body {
   margin-bottom: 10px;
 }
 
-.schedule-title span{
+.schedule-title span {
   color: #ee664e;
 }
 
-.schedule-wave{
+.schedule-wave {
   display: inline-flex;
   gap: 6px;
   margin: 10px 0 16px;
 }
 
-.schedule-wave span{
+.schedule-wave span {
   width: 18px;
   height: 3px;
   border-radius: 999px;
@@ -651,14 +653,14 @@ body {
   display: inline-block;
 }
 
-.schedule-subtitle{
+.schedule-subtitle {
   font-size: 14px;
   line-height: 1.85;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* Days row */
-.schedule-days{
+.schedule-days {
   margin-top: 28px;
   display: inline-flex;
   align-items: center;
@@ -669,56 +671,172 @@ body {
   text-transform: capitalize;
 }
 
-.schedule-days span{
-  color: rgba(255,255,255,0.6);
+.schedule-days span {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.schedule-day{
+.schedule-day {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
   transition: .2s;
 }
 
-.schedule-day:hover{
+.schedule-day:hover {
   color: #ee664e;
 }
 
-.schedule-day.is-active{
+.schedule-day.is-active {
   color: #ee664e;
 }
 
-.schedule-tableWrap{
+.schedule-tableWrap {
   max-width: 900px;
   margin: 0 auto;
   overflow: auto;
-  border: 1px solid rgba(255,255,255,0.55);
-  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: rgba(0, 0, 0, 0.10);
 }
 
 
-.schedule-table{
+.schedule-table {
   width: 100%;
   border-collapse: collapse;
   min-width: 780px;
 }
 
-.schedule-table td{
-  border: 1px solid rgba(255,255,255,0.55);
+.schedule-table td {
+  border: 1px solid rgba(255, 255, 255, 0.55);
   padding: 22px 18px;
   text-align: center;
   color: #fff;
   font-size: 13px;
   font-weight: 700;
-  background: rgba(0,0,0,0.08);
+  background: rgba(0, 0, 0, 0.08);
 }
 
-.schedule-table td:first-child{
+.schedule-table td:first-child {
   font-weight: 800;
 }
 
+/* ================= EXPERT TRAINERS ================= */
+.trainers {
+  padding: 90px 0;
+  background: #fff;
+}
+
+.trainers-head {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 60px;
+}
+
+.trainers-title {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #232d39;
+  margin-bottom: 12px;
+}
+
+.trainers-title span {
+  color: #ee664e;
+}
+
+.trainers-wave {
+  display: inline-flex;
+  gap: 6px;
+  margin: 10px 0 18px;
+}
+
+.trainers-wave span {
+  width: 18px;
+  height: 3px;
+  border-radius: 999px;
+  background: #ee664e;
+  display: inline-block;
+}
+
+.trainers-subtitle {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #7a7a7a;
+}
 
 
+.trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px;
+}
+
+
+.trainer-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  transition: .25s;
+}
+
+.trainer-card:hover {
+  transform: translateY(-4px);
+}
+
+
+.trainer-img {
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+
+.trainer-img img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.trainer-role {
+  color: #ee664e;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .5px;
+  margin-bottom: 8px;
+}
+
+.trainer-name {
+  font-size: 20px;
+  font-weight: 900;
+  color: #232d39;
+  margin-bottom: 14px;
+}
+
+.trainer-text {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #7a7a7a;
+  margin-bottom: 18px;
+}
+
+/* Social */
+.trainer-social {
+  display: flex;
+  gap: 14px;
+}
+
+.trainer-social a {
+  color: #232d39;
+  text-decoration: none;
+  font-size: 14px;
+  transition: .2s;
+}
+
+.trainer-social a:hover {
+  color: #ee664e;
+}
 
 
 
@@ -731,71 +849,125 @@ body {
     padding: 0 20px;
   }
 }
+
 @media (max-width: 992px) {
   .hero-content h1 {
     font-size: 48px;
   }
-  .programs-grid{
+
+  .programs-grid {
     gap: 34px 34px;
   }
-    .classes-wrap{
+
+  .classes-wrap {
     grid-template-columns: 320px 1fr;
     gap: 34px;
   }
-  .classes-image img{
+
+  .classes-image img {
     height: 320px;
   }
-    .schedule{
+
+  .schedule {
     padding: 95px 0;
   }
-  .schedule-title{
+
+  .schedule-title {
     font-size: 30px;
+  }
+
+  .trainers-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-    .menu-toggle{ display: inline-block; }
-    .nav{ display: none; }
-    .main-nav{ position: relative; }
-    .nav {
+  .menu-toggle {
+    display: inline-block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .main-nav {
+    position: relative;
+  }
+
+  .nav {
     display: none;
   }
 
   .hero-content h1 {
     font-size: 40px;
   }
-  .cta-banner{ padding: 80px 0; }
-  .cta-banner__title{ font-size: 30px; }
-  .cta-banner__text{ font-size: 13px; }
-  .programs-grid{
-    grid-template-columns: 1fr;
-  }
-  .classes{
-    padding: 70px 0;
-  }
-  .classes-wrap{
-    grid-template-columns: 1fr;
-  }
-  .classes-tabs{
-    order: 2;
-  }
-  .classes-panel{
-    order: 1;
-  }
-  .classes-image img{
-    height: 280px;
-  }
-  .schedule{
+
+  .cta-banner {
     padding: 80px 0;
   }
-  .schedule-title{
-    font-size: 26px;
+
+  .cta-banner__title {
+    font-size: 30px;
   }
-  .schedule-subtitle{
+
+  .cta-banner__text {
     font-size: 13px;
   }
-  .schedule-tableWrap{
+
+  .programs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .classes {
+    padding: 70px 0;
+  }
+
+  .classes-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .classes-tabs {
+    order: 2;
+  }
+
+  .classes-panel {
+    order: 1;
+  }
+
+  .classes-image img {
+    height: 280px;
+  }
+
+  .schedule {
+    padding: 80px 0;
+  }
+
+  .schedule-title {
+    font-size: 26px;
+  }
+
+  .schedule-subtitle {
+    font-size: 13px;
+  }
+
+  .schedule-tableWrap {
     max-width: 100%;
+  }
+
+  .trainers {
+    padding: 70px 0;
+  }
+
+  .trainers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trainer-card {
+    padding: 22px;
+  }
+
+  .trainer-img img {
+    height: 220px;
   }
 }
 
@@ -803,28 +975,49 @@ body {
   .hero-content h1 {
     font-size: 32px;
   }
-  .programs{
+
+  .programs {
     padding: 70px 0;
   }
-  .cta-banner{ padding: 68px 0; }
-  .cta-banner__title{ font-size: 24px; }
-  .cta-banner__btn{ width: 100%; max-width: 280px; }
-  .classes-title{
-    font-size: 26px;
-  }
-  .classes-tab{
-    padding: 18px 18px;
-  }
-  .classes-image img{
-    height: 220px;
-  }
-  .classes-all{
-    width: 100%;
-  }
-  .schedule{
+
+  .cta-banner {
     padding: 68px 0;
   }
-  .schedule-days{
+
+  .cta-banner__title {
+    font-size: 24px;
+  }
+
+  .cta-banner__btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .classes-title {
+    font-size: 26px;
+  }
+
+  .classes-tab {
+    padding: 18px 18px;
+  }
+
+  .classes-image img {
+    height: 220px;
+  }
+
+  .classes-all {
+    width: 100%;
+  }
+
+  .schedule {
+    padding: 68px 0;
+  }
+
+  .schedule-days {
     gap: 8px;
+  }
+
+  .trainers-title {
+    font-size: 26px;
   }
 }
