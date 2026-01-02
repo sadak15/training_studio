@@ -838,7 +838,128 @@ body {
   color: #ee664e;
 }
 
+/* ================= CONTACT ================= */
+.contact{
+  background: #0f1722; 
+}
+.contact-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 520px;
+}
 
+.contact-map{
+  min-height: 520px;
+}
+
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.contact-right{
+  position: relative;
+  background: url("contact-bg.jpg") no-repeat center/cover;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 22px;
+  overflow: hidden;
+}
+
+.contact-right::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(35,45,57,0.1);
+  z-index: 0;
+}
+
+/* Form card */
+.contact-formCard{
+  position: relative;
+  z-index: 1;
+  width: min(820px, 100%);
+  background: #fff;
+  border-radius: 6px;
+  padding: 36px 38px;
+  box-shadow: 0 22px 70px rgba(0,0,0,0.25);
+}
+
+.contact-form{
+  display: grid;
+  gap: 18px;
+}
+
+.contact-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  padding: 14px 14px;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  border-radius: 2px;
+}
+
+.contact-form textarea{
+  resize: vertical;
+  min-height: 170px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+  border-color: #ee664e;
+}
+
+.contact-btn{
+  justify-self: start;
+  border: 0;
+  cursor: pointer;
+  background: #ee664e;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  padding: 12px 18px;
+  border-radius: 2px;
+  transition: .25s;
+}
+
+.contact-btn:hover{
+  background: #232d39;
+}
+
+.footer{
+  padding: 26px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.footer p{
+  margin: 0;
+  font-size: 13px;
+  color: #232d39;
+}
+
+.footer a{
+  color: #ee664e;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
 
 
 /* ================= RESPONSIVE ================= */
@@ -969,6 +1090,15 @@ body {
   .trainer-img img {
     height: 220px;
   }
+    .contact-grid{
+    grid-template-columns: 1fr;
+  }
+  .contact-map{
+    min-height: 420px;
+  }
+  .contact-right{
+    min-height: 520px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1019,5 +1149,15 @@ body {
 
   .trainers-title {
     font-size: 26px;
+  }
+    .contact-formCard{
+    padding: 22px 18px;
+  }
+  .contact-row{
+    grid-template-columns: 1fr;
+  }
+  .contact-btn{
+    width: 100%;
+    justify-self: stretch;
   }
 }
